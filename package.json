@@ -1,0 +1,12 @@
+{
+  "name": "docker-webpack",
+  "version": "1.0.0",
+  "description": "A simple boiler plate for a webpack based workflow using docker.",
+  "main": "index.js",
+  "repository": "https://github.com/mathieulj/docker-webpack",
+  "author": "Mathieu Letendre-Jauniaux",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^4.8.3"
+  }
+}
