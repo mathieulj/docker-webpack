@@ -1,5 +1,5 @@
 FROM node:10
-WORKDIR /opt/learn-webpack
+WORKDIR /opt/docker-webpack
 COPY package.json yarn.lock ./
 RUN yarn
 COPY * ./
