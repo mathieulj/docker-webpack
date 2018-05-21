@@ -8,4 +8,5 @@ docker build --tag docker-webpack .
 docker run -it --rm \
     --mount type=bind,source=`pwd`,target=/opt/docker-webpack \
     --mount type=volume,target=/opt/docker-webpack/node_modules \
+    --user node \
     docker-webpack /bin/bash
